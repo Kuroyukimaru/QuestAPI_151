@@ -7,7 +7,7 @@ data class DataSiswa(
     val id : Int,
     val nama : String,
     val alamat : String,
-    val telpon : String
+    val telpon : Int
 )
 
 data class UIStateSiswa(
@@ -26,7 +26,7 @@ fun DetailSiswa.toDataSiswa(): DataSiswa = DataSiswa(
     id = id,
     nama = nama,
     alamat = alamat,
-    telpon = telpon
+    telpon = telpon.toInt()
 )
 
 fun DataSiswa.toUiStateSiswa(isEntryValid: Boolean = false): UIStateSiswa = UIStateSiswa(
@@ -38,5 +38,5 @@ fun DataSiswa.toDetailSiswa(): DetailSiswa = DetailSiswa(
     id = id,
     nama = nama,
     alamat = alamat,
-    telpon = telpon
+    telpon = telpon.toString()
 )

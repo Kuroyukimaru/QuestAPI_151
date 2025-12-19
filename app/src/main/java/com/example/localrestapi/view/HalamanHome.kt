@@ -195,7 +195,7 @@ fun ItemSiswa(
                 contentDescription = null
             )
             Text(
-                text = siswa.telpon,
+                text = siswa.telpon.toString(),
                 style = MaterialTheme.typography.titleMedium
             )
             Text(
