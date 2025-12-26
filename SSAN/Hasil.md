@@ -2,3 +2,8 @@
 ![Halaman Entry](Entry.png)
 ![Hasil setelah Entry](hasilEntry.png)
 ![Databases](Database.png)
+![Detail Sebelum Di Edit](Detailsebelumedit.png)
+![Edit](Edit.png)
+![Detail Setelah Di Edit](detailsetelahedit.png)
+![Hapus](hapus.png)
+![Setelah di Hapus](setelahdihapus.png)
