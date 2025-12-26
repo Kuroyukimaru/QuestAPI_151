@@ -1,5 +1,6 @@
 package com.example.localrestapi.view
 
+
 import com.example.localrestapi.R
 import com.example.localrestapi.modeldata.DataSiswa
 import com.example.localrestapi.uicontroller.route.DestinasiHome
@@ -195,7 +196,7 @@ fun ItemSiswa(
                 contentDescription = null
             )
             Text(
-                text = siswa.telpon.toString(),
+                text = siswa.telpon,
                 style = MaterialTheme.typography.titleMedium
             )
             Text(
